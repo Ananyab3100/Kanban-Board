@@ -1,2 +1,2 @@
 # Kanban-Board
-Creating a  simple Kanban board
+Creating a  simple Kanban board using HTML, CSS & Javascript
