@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scaler Kanban Board</title>
+    <link href="https://fonts.googleapis.com/css?family=Poppins:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+    <form id="task-form">
+    <div class="form-wrapper">
+            <input  autocomplete="off" id="tasks-input" placeholder="Enter a new task..." type="text"/>
+            <button type="submit">Add new task</button>  
+    </div>
+</form>
+
+    <section class="tasks-wrapper">
+        <div class="tasks-lane" id="todo-lane">
+            <h3>To Do</h3>
+        
+        </div>
+        <div class="tasks-lane" id="doing-lane">
+            <h3>Doing</h3>
+            <div class="tasks">
+                <p>Lorem ipsum dolor sit amet.</p>
+            </div>
+            
+        </div>
+        <div class="tasks-lane" id="done-lane">
+            <h3>Done</h3>
+            <div class="tasks">
+                <p>Lorem ipsum dolor sit amet.</p>
+            </div>
+        </div>
+    </section>
+ <script async src="main.js"></script>   
+</body>
+</html>
